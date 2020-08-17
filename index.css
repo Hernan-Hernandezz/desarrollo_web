@@ -10,3 +10,13 @@ h5,
 h6{
   font-family: 'Fjalla One', sans-serif;
 }
+.header,.hero{
+  background-color:#1c2329;
+}
+h1{
+  font-size: 40px ;
+  line-height: 1.5;
+}
+.hero strong {
+  color: #0c40a7;
+}
