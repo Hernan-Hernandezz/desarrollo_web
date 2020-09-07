@@ -1,6 +1,7 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
-
+  margin: 0;
+  background-color: rgb(216, 216, 216);
 }
 h1,
 h2,
@@ -10,13 +11,90 @@ h5,
 h6{
   font-family: 'Fjalla One', sans-serif;
 }
+.div_header{
+  display: flex;
+  flex-wrap: wrap;
+}
+ol,ul{
+  margin: 0px;
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: flex-end
+}
+li {
+  margin: 0px 5px ;
+}
 .header,.hero{
-  background-color:#1c2329;
+  background-color:#1b2127;
+  color : #fff;
+  margin:0px;
+}
+.header a {
+  text-decoration:none;
+  color: #fff;
+}
+.all-content{
+  border-left-width: 10px;
+  border-left-color: #026FFF ;
+  border-left-style: solid;
+  padding-top: 5%;
+
 }
 h1{
   font-size: 40px ;
   line-height: 1.5;
+  letter-spacing: -2;
+  margin: 0px;
+
+}
+.hero {
+  height: 300px;
+  text-transform: capitalize;
+  background-image: url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 400px 300px;
+  background-position-x: right;
+  letter-spacing: 1.5px;
+  font-weight: 300;
 }
 .hero strong {
-  color: #0c40a7;
+  color: #026fff;
+}
+.hero h1{
+  width: 500px;
+}
+
+.briefcase{
+  margin: 0px 100px 15px 100px  ;
+  display: flex;
+  background-color: white;
+  text-align: justify;
+  padding: 5%;
+  border: 2px solid rgb(131, 124, 124) ;
+  border-radius: 15px;
+  flex-wrap: initial ;
+}
+.descripcion-briefcase{
+  width: 500px;
+  height: 400px;  
+  margin: 0;
+}
+.briefcase img 
+{
+  width: 500px;
+  height: auto  ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+  width: 50px;
+  height:50px;
+  border:1px solid black;
+
 }
