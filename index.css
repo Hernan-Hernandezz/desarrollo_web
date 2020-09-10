@@ -14,6 +14,7 @@ h6{
 .div_header{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 ol,ul{
   margin: 0px;
@@ -96,5 +97,16 @@ h1{
   width: 50px;
   height:50px;
   border:1px solid black;
+
+}
+.event-text{
+  background-image: url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/platzi-conf.jpg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  padding: 50px;
+  width: 300px;
+}
+.event-text div{
+  background-color:#fff;
 
 }
