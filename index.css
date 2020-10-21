@@ -15,6 +15,7 @@ h6{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 ol,ul{
   margin: 0px;
@@ -25,14 +26,14 @@ ol,ul{
   text-transform: capitalize;
 }
 li {
-  margin: 0px 10px ;
+  margin: 0px 20px ;
 }
 
 li a{
-text-transform:capitalize ;
-    
+  text-transform:capitalize ;
+  font-size: 20px;  
 }
-.header,.hero{
+.header,.hero , footer{
   background-color:#1b2127;
   color : #fff;
   margin:0px;
@@ -51,8 +52,8 @@ text-transform:capitalize ;
 h1{
   font-size: 40px ;
   line-height: 1.5;
-  letter-spacing: -2;
-  margin: 0px;
+  letter-spacing: -1px;
+  margin: 0px;  
 
 }
 .hero {
@@ -62,16 +63,24 @@ h1{
   font-weight: 300;
   display:flex;
   flex-wrap:wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 .hero strong {
   color: #026fff;
 }
 .hero h1{
-  width: 500px;
+  width: 550;
+  margin: 0px 10px;
+}
+
+.hero figure{
+  width: 550px;
+  margin: 0px 10px; 
 }
 
 .hero img{
-    Width:350px;
+    Width:100%;
 }
 .briefcase{
   margin: 5%  ;
@@ -105,7 +114,7 @@ h1{
 
 }
 .event-text{
-  background-image: url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/platzi-conf.jpg");
+  background-image: url("./images/platzi-conf.jpg");
   background-repeat: no-repeat;
   background-size:contain;
   padding: 50px;
@@ -114,4 +123,17 @@ h1{
 .event-text div{
   background-color:#fff;
 
+}
+footer {
+  display: flex;
+  justify-content:stretch;
+}
+footer{
+
+}
+footer img {
+  width: 100px;
+}
+footer div{
+  display: flex;
 }
