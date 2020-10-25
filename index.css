@@ -46,7 +46,7 @@ li a{
   border-left-width: 10px;
   border-left-color: #026FFF ;
   border-left-style: solid;
-  padding-top: 5%;
+  padding-top: 3%;
 
 }
 h1{
@@ -70,39 +70,52 @@ h1{
   color: #026fff;
 }
 .hero h1{
-  width: 550;
+  width: 550px;
   margin: 0px 10px;
 }
 
 .hero figure{
-  width: 550px;
+  width: 400px;
   margin: 0px 10px; 
 }
 
 .hero img{
-    Width:100%;
+  Width:100%;
+}
+h2{
+  color: #026fff;
+  margin: 10px 3%;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 .briefcase{
-  margin: 5%  ;
+  margin: 3%  ;
   display: flex;
   background-color: white;
   text-align: justify;
-  padding: 5%;
+  padding: 3%;
   border: 2px solid rgb(131, 124, 124) ;
   border-radius: 15px;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
 }
 .descripcion-briefcase{
   width: 500px;
   height: 400px;
   margin: 0;
 }
+.descripcion-briefcase h3{
+  text-transform:capitalize;
+  font-size: 24px;
+}
+
 .briefcase img
 {
   width: 400px;
   height: 50% ;
 }
+
 .content-box{
   display: flex;
   justify-content: space-evenly;
@@ -124,16 +137,45 @@ h1{
   background-color:#fff;
 
 }
-footer {
+#contacto{
+  background-color: #026fff;
   display: flex;
-  justify-content:stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-footer{
+.form{
+  width: 350px;
+  color: white;
+  text-transform: uppercase;
+}
+.form button{
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #026fff;
+  border-style: solid;
+  border-color: white;
+  border-width: 1.5px;
+  border-radius: 3px;
+}
+.redes_sociales {
+  display: flex; 
+  width: 450px;
+}
+.redes_sociales figure{
+  margin: 5%;
+}
+.redes_sociales img{
+  width: 35px;
 
 }
-footer img {
+.footer {
+  display: flex;
+  justify-content:space-between;
+}
+.footer img {
   width: 100px;
 }
-footer div{
+.footer div{
+  margin: 0px 1%;
   display: flex;
 }
