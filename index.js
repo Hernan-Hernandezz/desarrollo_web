@@ -1,4 +1,11 @@
-var img_hero = document.getElementById("figure_hero");
-console.log(img_hero.style.getPropertyValue(width));
+var texto = document.getElementById("texto_linea");
+var boton = document.getElementById("botoncito");
+a =boton.onclick
 
-img_hero.style.width = 400 +"px";
+
+function dibujoporclick(){
+  var linea = prompt(texto.nodeValue);
+  alert(linea)
+
+}
+

@@ -5,6 +5,7 @@
     <title>Aprendiendo web</title>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width  initial-scale=1">
     <script src="index.js"></script>
   </head>
   <body>
@@ -23,7 +24,7 @@
             <li>
               <a href="#eventos"> experiencia</a>
             </li>
-            <li>
+            <li class="contactame">
               <a href="#contacto">trabajemos juntos</a>
             </li>
           </ol>
@@ -54,43 +55,64 @@
         </div>
         <img src="./images/platzi-video-react-native.png" alt="no se encntro imagen de react native">
       </section>
-      <section id="eventos">
+      <h2>mas sobre mi experiencia</h2><br>
+      <section id="eventos" class="event-list">
         <!-- seccion eventos -->
-        <h2>mas sobre mi experiencia</h2>
-        <article>
+        <article class="event">
+          <figure>
+            <img src="./images/platzi-conf.jpg" alt="">
+          </figure>
           <div class="event-text">
-            <div>
-
-              <h3>Platziconf Mexíco 2018</h3>
-              <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento tecomparto como tener una vida de constante aprendizaje.</p>
-              <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platíca</a>
-            </div>
+            <h3>Platziconf Mexíco 2018</h3>
+            <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platíca</a>
           </div>
         </article>
-        <article>
+        <article class="event">
+          <figure>
+            <img src="./images/platzi-conf.jpg" alt="">
+          </figure>
           <div class="event-text">
-            <div>
-
-              <h3>Platziconf Mexíco 2018</h3>
-              <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento tecomparto como tener una vida de constante aprendizaje.</p>
-              <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platíca</a>
-            </div>
+            <h3>Platziconf Mexíco 2018</h3>
+            <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platíca</a>
           </div>
         </article>
+        <article class="event">
+          <figure>
+            <img src="./images/platzi-conf.jpg" alt="">
+          </figure>
+          <div class="event-text">
+            <h3>Platziconf Mexíco 2018</h3>
+            <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platíca</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure>
+            <img src="./images/platzi-conf.jpg" alt="">
+          </figure>
+          <div class="event-text">
+            <h3>Platziconf Mexíco 2018</h3>
+            <p>El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Platíca</a>
+          </div>
+        </article>
+        
       </section>
       <section id="contacto">
         <!-- seccion contacto -->
         <form class="form">
           <H3>¿cremos algo juntos?</H3>
-          <input type="text" placeholder="dejame tu email" /><br>
-          <button>enviar</button>
+          <input type="text" placeholder="dejame tu email" id="email"/><br>
+          <button id="botoncito">enviar</button>
         </form>
-          <div class="redes_sociales">
-              <figure><img src="./images/twitter.svg" alt=""></figure>
-              <figure><img src="./images/facebook.svg" alt=""></figure>
-              <figure><img src="./images/github.svg" alt=""></figure>
-              <figure><img src="./images/instagram.svg" alt=""></figure>
-          </div>
+        <div class="social">
+          <a href=""class="social-link twitter"></a>
+          <a href=""class="social-link facebook"></a>
+          <a href=""class="social-link github"></a>
+          <a href=""class="social-link instagram"></a>
+        </div>
       </section>
     </div>
     <footer class="footer">
