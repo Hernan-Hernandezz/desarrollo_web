@@ -1,3 +1,7 @@
+:root{
+    --main-bg-color:#026fff;
+}
+
 body{
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
@@ -32,7 +36,7 @@ li {
 
 li a{
   text-transform:capitalize ;
-  font-size: 20px;  
+  font-size: 20px;
 }
 .contactame{
   border: 2px solid white;
@@ -49,7 +53,7 @@ li a{
 }
 .all-content{
   border-left-width: 20px;
-  border-left-color: #026fff ;
+  border-left-color:var(--main-bg-color);
   border-left-style: solid;
   padding-top: 3%;
 
@@ -58,7 +62,7 @@ h1{
   font-size: 40px ;
   line-height: 1.5;
   letter-spacing: -1px;
-  margin: 0px;  
+  margin: 0px;
 
 }
 .hero {
@@ -72,7 +76,7 @@ h1{
   align-items: center;
 }
 .hero strong {
-  color: #026fff;
+  color: var(--main-bg-color);
 }
 .hero h1{
   width: 550px;
@@ -81,14 +85,14 @@ h1{
 
 .hero figure{
   width: 400px;
-  margin: 0px 10px; 
+  margin: 0px 10px;
 }
 
 .hero img{
   Width:100%;
 }
 h2{
-  color: #026fff;
+  color: var(--main-bg-color);
   margin: 10px 3%;
   text-transform: uppercase;
   font-weight: 800;
@@ -151,9 +155,9 @@ h2{
 }
 .event a {
   text-decoration: none;
-  color: #026fff;
+  color: var(--main-bg-color);
   padding: 5px 10px;
-  border: 1.5px solid #026fff;
+  border: 1.5px solid var(--main-bg-color);
   border-radius: 5px;
   text-align: center;
   display: flex;
@@ -168,7 +172,7 @@ h2{
   position: relative;
 }
 #contacto{
-  background-color: #026fff;
+  background-color:var(--main-bg-color);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -181,7 +185,7 @@ h2{
 .form button{
   text-transform: capitalize;
   color: #fff;
-  background-color: #026fff;
+  background-color: var(--main-bg-color);
   border-style: solid;
   border-color: white;
   border-width: 1.5px;
