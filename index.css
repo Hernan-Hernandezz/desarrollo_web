@@ -234,3 +234,8 @@ h2{
   margin: 0px 1%;
   display: flex;
 }
+@media screen and (max-width:500px){
+  ol {
+    flex-direction: column;
+  }
+}
