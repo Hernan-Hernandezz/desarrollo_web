@@ -195,7 +195,7 @@ h2{
 }
 .form input{
   padding: 5px 25px;
-  background-image: url("./images/envelope.svg");
+  background-image: url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/envelope.svg");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position-x: 5px;
@@ -213,19 +213,19 @@ h2{
 }
 .social-link.twitter{
   background-size: 50px 50px;
-  background-image:url("./images/twitter.svg") ;
+  background-image:url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/twitter.svg") ;
 }
 .social-link.facebook{
   background-size: 50px 50px;
-  background-image:url("./images/facebook.svg") ;
+  background-image:url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/facebook.svg") ;
 }
 .social-link.github{
   background-size: 50px 50px;
-  background-image:url("./images/github.svg") ;
+  background-image:url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/github.svg") ;
 }
 .social-link.instagram{
   background-size: 50px 50px;
-  background-image:url("./images/instagram.svg") ;
+  background-image:url("https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/instagram.svg") ;
 }
 .footer {
   display: flex;
@@ -238,11 +238,8 @@ h2{
   margin: 0px 1%;
   display: flex;
 }
-<<<<<<< HEAD
 @media screen and (max-width:500px){
   ol {
     flex-direction: column;
   }
 }
-=======
->>>>>>> 9d9f7aa1a40d1624d18649d1f43892ce67d6fad4
